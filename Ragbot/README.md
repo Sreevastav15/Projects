@@ -21,6 +21,7 @@ A simple and efficient application for uploading PDF documents, extracting struc
 - FastAPI
 - SQLAlchemy
 - LangChain
+- Groq Api
 - Google Embeddings
 - ChromaDB
 - PyPDFLoader
@@ -65,6 +66,18 @@ Frontend runs at:
 ```
 http://localhost:3000
 ```
+
+---
+### API Keys
+The project use Groq Api. You can get your key at:
+
+https://console.groq.com/keys
+
+The project uses Google API. You can get your key at:
+
+https://aistudio.google.com/api-keys
+
+You also need PostgreSQL url to run this project.
 
 ---
 
